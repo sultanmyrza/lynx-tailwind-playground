@@ -2,6 +2,17 @@
 
 Welcome to the Lynx Tailwind Playground! This project serves as an interactive testing ground for exploring Tailwind CSS integration with Lynx, helping us build a stronger and more reliable styling ecosystem for the Lynx community.
 
+I followed [Setting up Tailwind CSS with Lynx](https://gearboxgo.com/articles/tech-talk/setting-up-tailwind-with-lynx) (special thanks to @Smef! 🙌).  
+
+To better understand how Tailwind behaves in Lynx, I document each component with a corresponding README. For example, if I have `components/MainContent.tsx` using Lynx components like `view`, `text`, etc., with Tailwind classes, I create a `components/MainContent.md` file that contains the same Tailwind classes but applied to standard HTML elements like `div`, `span`, etc.  
+
+You can paste `components/MainContent.md` into [Tailwind Play](https://tailwindcss.com) (Tailwind v3) to compare how Lynx Tailwind styling differs from standard Tailwind behavior.  
+
+Here's an example of an inconsistency I noticed:  
+https://github.com/user-attachments/assets/99eadc74-af7b-45d1-a17c-b2d104d18f10
+
+**NOTE:** Lynx Tailwind is still in its early stages (aka `@lynx-js/tailwind-preset-canary`), so some inconsistencies are expected. The key is to provide clear, reproducible examples and well-structured issue reports to help maintainers fix them faster. 🚀  
+```
 ## Project Goals
 
 - 🎯 Explore and test Tailwind CSS functionality within the Lynx environment
