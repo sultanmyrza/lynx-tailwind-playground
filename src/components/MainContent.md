@@ -1,7 +1,7 @@
 This HTML matches `MainContent.tsx`. Compare it on play. https://tailwindcss.com (Tailwind v3) to spot differences with `@lynx-js/tailwind-preset`.
 
 ```html
-<div class="w-full h-full pt-[env(safe-area-inset-top)] pb-[env(safe-area-inset-bottom)]">
+<div class="w-full h-full bg-slate-900 pt-[env(safe-area-inset-top)] pb-[env(safe-area-inset-bottom)]">
   <div class="w-full h-full overflow-y-auto">
     <!-- Header Section -->
     <div class="container mx-auto px-4 py-8">
