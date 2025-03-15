@@ -1,6 +1,6 @@
 export function MainContent() {
   return (
-    <view className="w-full h-full pt-[env(safe-area-inset-top)] pb-[env(safe-area-inset-bottom)]">
+    <view className="w-full h-full bg-slate-900 pt-[env(safe-area-inset-top)] pb-[env(safe-area-inset-bottom)]">
       <scroll-view scroll-orientation="vertical" className="w-full h-full">
         {/* Header Section */}
         <view className="container mx-auto px-4 py-8">
